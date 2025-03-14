@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 08:28:48 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjY7MjAyNS0wMy0xNDsiMDg6MTQ6NTQgIjsyMTA3"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjY7MjAyNS0wMy0xNDsiMDg6Mjg6NDggIjsyOzIyMjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="endereco" type="String" array="False" size=""/>
+            <declare name="cadastrado" type="Boolean" array="False" size=""/>
+            <declare name="renda" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o nome do Cliente:&quot;" newline="True"/>
+            <input variable="cliente"/>
+            <output expression="&quot;Digite seu Endere&#231;o:&quot;" newline="True"/>
+            <input variable="endereco"/>
+            <output expression="&quot;Possui cadastro?:&quot;" newline="True"/>
+            <input variable="cadastrado"/>
+            <output expression="&quot;Renda Mensal igual a:&quot;" newline="True"/>
+            <input variable="renda"/>
+            <output expression="&quot;Nome: &quot;&amp;cliente" newline="True"/>
+            <output expression="&quot;Endereco: &quot;&amp;endereco" newline="True"/>
+            <output expression="&quot;Possui cart&#227;o da loja: &quot;&amp;cadastrado" newline="True"/>
+            <output expression="&quot;Renda: &quot;&amp;renda" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
