@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 09:10:57 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjY7MjAyNS0wMy0xNDsiMDg6NTI6MzQgIjsyMTA3"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjY7MjAyNS0wMy0xNDsiMDk6MTA6NTcgIjsyOzIyMTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A1, A2" type="Integer" array="False" size=""/>
+            <declare name="B1, B2" type="Real" array="False" size=""/>
+            <declare name="C1, C2" type="String" array="False" size=""/>
+            <declare name="D1, D2" type="Boolean" array="False" size=""/>
+            <assign variable="A1" expression="20000000"/>
+            <assign variable="A2" expression="60000000"/>
+            <assign variable="B1" expression="1.75"/>
+            <assign variable="B2" expression="1.62"/>
+            <assign variable="C1" expression="&quot;ADOLF&quot;"/>
+            <assign variable="C2" expression="&quot;JOSEPH&quot;"/>
+            <assign variable="D1" expression="true"/>
+            <assign variable="D2" expression="false"/>
+            <output expression="&quot;&quot;&amp;A2" newline="True"/>
+            <output expression="&quot;&quot;&amp;B2" newline="True"/>
+            <output expression="&quot;&quot;&amp;C2" newline="True"/>
+            <output expression="&quot;&quot;&amp;D2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
