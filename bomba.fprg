@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 09:53:20 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjY7MjAyNS0wMy0xNDsiMDk6MTE6MDEgIjsyMDk3"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjY7MjAyNS0wMy0xNDsiMDk6NTM6MjAgIjsyOzIyMTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nFruta, nFruta2, nfruta3" type="String" array="False" size=""/>
+            <declare name="eFruta, eFruta2, eFruta3" type="Boolean" array="False" size=""/>
+            <assign variable="nFruta" expression="&quot;Laranja&quot;"/>
+            <assign variable="nFruta2" expression="&quot;Mam&#227;o&quot;"/>
+            <assign variable="nFruta3" expression="&quot;Mirtilo&quot;"/>
+            <assign variable="eFruta" expression="true"/>
+            <assign variable="eFruta2" expression="false"/>
+            <assign variable="eFruta3" expression="true"/>
+            <output expression="&quot;&quot;&amp;nFruta" newline="True"/>
+            <output expression="&quot;&quot;&amp;eFruta" newline="True"/>
+            <output expression="&quot;&quot;&amp;nFruta2" newline="True"/>
+            <output expression="&quot;&quot;&amp;eFruta2" newline="True"/>
+            <output expression="&quot;&quot;&amp;nFruta3" newline="True"/>
+            <output expression="&quot;&quot;&amp;eFruta3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
