@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 09:39:30 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjY7MjAyNS0wMy0xNDsiMDk6MTE6MDEgIjsyMDk3"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjY7MjAyNS0wMy0xNDsiMDk6Mzk6MzAgIjsxOzIyMTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nFruta, nFruta2, nfruta3" type="String" array="False" size=""/>
+            <declare name="eFruta, eFruta2, eFruta3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nome da 1&#176; Fruta:&quot;" newline="True"/>
+            <input variable="nFruta"/>
+            <output expression="&quot;Nome da 2&#176; Fruta:&quot;" newline="True"/>
+            <input variable="nFruta2"/>
+            <output expression="&quot;Nome da 3&#176; Fruta:&quot;" newline="True"/>
+            <input variable="nFruta3"/>
+            <output expression="&quot;Estoque da 1&#176; Fruta:&quot;" newline="True"/>
+            <input variable="eFruta"/>
+            <output expression="&quot;Estoque da 2&#176; Fruta:&quot;" newline="True"/>
+            <input variable="eFruta2"/>
+            <output expression="&quot;Estoque da 3&#176; Fruta:&quot;" newline="True"/>
+            <input variable="eFruta3"/>
+            <if expression="eFruta &gt; 0">
+                <then>
+                    <output expression="&quot;Tem &quot;&amp;nFruta" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#227;o tem &quot;&amp;nFruta" newline="True"/>
+                </else>
+            </if>
+            <if expression="eFruta2 &gt; 0">
+                <then>
+                    <output expression="&quot;Tem &quot;&amp;nFruta2" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#227;o tem &quot;&amp;nFruta2" newline="True"/>
+                </else>
+            </if>
+            <if expression="eFruta3&gt;0">
+                <then>
+                    <output expression="&quot;Tem &quot;&amp;nFruta3" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#227;o tem &quot;&amp;nFruta3" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
