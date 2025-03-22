@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 08:13:13 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjM7MjAyNS0wMy0yMTsiMDg6MDU6MzIgIjsyMDk4"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjM7MjAyNS0wMy0yMTsiMDg6MTM6MTMgIjsxOzIyMDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Maximo" type="Integer" array="False" size=""/>
+            <assign variable="Maximo" expression="2^15"/>
+            <output expression="&quot; &quot;&amp;Maximo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

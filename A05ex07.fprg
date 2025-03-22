@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 08:03:39 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjM7MjAyNS0wMy0yMTsiMDc6NTU6MTMgIjsyMTAx"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjM7MjAyNS0wMy0yMTsiMDg6MDM6MzkgIjsxOzIyMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Horas" type="Integer" array="False" size=""/>
+            <declare name="horas2" type="Integer" array="False" size=""/>
+            <assign variable="Horas" expression="208"/>
+            <assign variable="horas2" expression="130"/>
+            <output expression="&quot;Hora de Trabalho no Emprego 1: &quot; &amp; 759/horas2" newline="True"/>
+            <output expression="&quot;Hora de Trabalho no Emprego 2: &quot; &amp; 1518/horas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

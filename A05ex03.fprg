@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 07:43:40 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjM7MjAyNS0wMy0yMTsiMDc6MzE6MjIgIjsyMDk1"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjM7MjAyNS0wMy0yMTsiMDc6NDM6NDAgIjszOzIyMDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;1) &quot; &amp;10%2" newline="True"/>
+            <output expression="&quot;2) &quot; &amp;15%5" newline="True"/>
+            <output expression="&quot;3) &quot; &amp;5%1" newline="True"/>
+            <output expression="&quot;4) &quot; &amp;14%7" newline="True"/>
+            <output expression="&quot;5) &quot; &amp;28%14" newline="True"/>
+            <output expression="&quot;6) &quot; &amp;55%5" newline="True"/>
+            <output expression="&quot;7) &quot; &amp;36%6" newline="True"/>
+            <output expression="&quot;8) &quot; &amp;30%6" newline="True"/>
+            <output expression="&quot;9) &quot; &amp;48%8" newline="True"/>
+            <output expression="&quot;10) &quot; &amp;42%7" newline="True"/>
+            <output expression="&quot;11) &quot; &amp;20%2" newline="True"/>
+            <output expression="&quot;12) &quot; &amp;45%5" newline="True"/>
+            <output expression="&quot;13) &quot; &amp;2%1" newline="True"/>
+            <output expression="&quot;14) &quot; &amp;22%2" newline="True"/>
+            <output expression="&quot;15) &quot; &amp;44%22" newline="True"/>
+            <output expression="&quot;16) &quot; &amp;18%9" newline="True"/>
+            <output expression="&quot;17) &quot; &amp;27%9" newline="True"/>
+            <output expression="&quot;18) &quot; &amp;81%9" newline="True"/>
+            <output expression="&quot;19) &quot; &amp;35%7" newline="True"/>
+            <output expression="&quot;20) &quot; &amp;60%10" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
