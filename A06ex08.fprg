@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-28 09:27:14 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDM7MjAyNS0wMy0yODsiMDk6MDI6MzQgIjsyMTAz"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDM7MjAyNS0wMy0yODsiMDk6Mjc6MTQgIjszOzIyMTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="combustivel" type="Real" array="False" size=""/>
+            <assign variable="combustivel" expression="50"/>
+            <declare name="autonomia" type="Real" array="False" size=""/>
+            <assign variable="autonomia" expression="combustivel * 5"/>
+            <declare name="viagem1" type="Real" array="False" size=""/>
+            <declare name="viagem2" type="Integer" array="False" size=""/>
+            <declare name="viagem3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual a dist&#226;ncia a ser percorrida na primeira viagem?&quot;" newline="True"/>
+            <input variable="viagem1"/>
+            <output expression="&quot;&#201; necess&#225;rio reabastecer! &quot; &amp;(viagem1&gt;autonomia)" newline="True"/>
+            <output expression="&quot;Qual a dist&#226;ncia a ser percorrida na segunda viagem?&quot;" newline="True"/>
+            <input variable="viagem2"/>
+            <output expression="&quot;&#201; necess&#225;rio reabastecer! &quot; &amp;(viagem2&gt;autonomia)" newline="True"/>
+            <output expression="&quot;Qual a dist&#226;ncia a ser percorrida na terceira viagem?&quot;" newline="True"/>
+            <input variable="viagem3"/>
+            <output expression="&quot;&#201; necess&#225;rio reabastecer! &quot; &amp;(viagem3&gt;autonomia)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

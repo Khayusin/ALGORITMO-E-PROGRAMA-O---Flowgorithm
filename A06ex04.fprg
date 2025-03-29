@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-28 08:22:21 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDM7MjAyNS0wMy0yODsiMDc6NDE6NTYgIjsyMTA4"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDM7MjAyNS0wMy0yODsiMDg6MjI6MjEgIjsyOzIyMDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="VelocidadeMaxima" type="Integer" array="False" size=""/>
+            <assign variable="VelocidadeMaxima" expression="110"/>
+            <declare name="VelocidadeAtual" type="Integer" array="False" size=""/>
+            <output expression="&quot;Forne&#231;a a velocidade atual do ve&#237;culo: &quot;" newline="True"/>
+            <input variable="VelocidadeAtual"/>
+            <output expression="&quot;O ve&#237;culo est&#225; demtro do limite de velocidade! &quot; &amp; (VelocidadeAtual&lt;VelocidadeMaxima)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

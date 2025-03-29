@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-28 08:33:18 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDM7MjAyNS0wMy0yODsiMDg6MjI6MzAgIjsyMTAw"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDM7MjAyNS0wMy0yODsiMDg6MzM6MTggIjsxOzIyMTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Dp1" type="Real" array="False" size=""/>
+            <declare name="Dp2" type="Real" array="False" size=""/>
+            <declare name="Dp3" type="Real" array="False" size=""/>
+            <output expression="&quot;Fa&#231;a o primeiro dep&#243;sito: &quot;" newline="True"/>
+            <input variable="Dp1"/>
+            <output expression="&quot;Fa&#231;a o segundo dep&#243;sito: &quot;" newline="True"/>
+            <input variable="Dp2"/>
+            <output expression="&quot;Fa&#231;a o terceiro dep&#243;sito: &quot;" newline="True"/>
+            <input variable="Dp3"/>
+            <output expression="&quot;O seu saldo &#233; superior a mil reais!  &quot; &amp;(Dp1+Dp2+Dp3&gt;1000)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

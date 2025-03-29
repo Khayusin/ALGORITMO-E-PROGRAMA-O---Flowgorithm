@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-28 09:02:30 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDM7MjAyNS0wMy0yODsiMDg6NDk6MTMgIjsyMTEw"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDM7MjAyNS0wMy0yODsiMDk6MDI6MzAgIjsyOzIyMDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Fruta" type="String" array="False" size=""/>
+            <assign variable="Fruta" expression="&quot;Banana&quot;"/>
+            <declare name="Palpite1" type="String" array="False" size=""/>
+            <declare name="Palpite2" type="String" array="False" size=""/>
+            <declare name="Palpite3" type="String" array="False" size=""/>
+            <output expression="&quot;Voc&#234; tem direito a 3 Palpites! Dica: B _ _ _ _ a&quot;" newline="True"/>
+            <input variable="Palpite1"/>
+            <input variable="Palpite2"/>
+            <input variable="Palpite3"/>
+            <output expression="&quot;Voc&#234; acertou o primeiro palpite! &quot; &amp;(Palpite1=Fruta)" newline="True"/>
+            <output expression="&quot;Voc&#234; acertou o segundo palpite! &quot; &amp;(Palpite2=Fruta)" newline="True"/>
+            <output expression="&quot;Voc&#234; acertou o terceiro palpite! &quot; &amp;(Palpite3=Fruta)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

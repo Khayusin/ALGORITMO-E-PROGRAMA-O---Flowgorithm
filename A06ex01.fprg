@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-28 08:04:27 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDM7MjAyNS0wMy0yODsiMDc6MjQ6MzMgIjsyMTA0"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDM7MjAyNS0wMy0yODsiMDg6MDQ6MjcgIjsyOzIyMTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a sua idade: &quot;" newline="True"/>
+            <input variable="Idade"/>
+            <output expression="&quot;Maior de Idade?  &quot; &amp; (idade &gt;=18)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
