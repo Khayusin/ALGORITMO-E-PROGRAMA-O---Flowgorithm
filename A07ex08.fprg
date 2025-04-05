@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-04 09:36:53 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDU7MjAyNS0wNC0wNDsiMDg6MTc6MDIgIjsyMTAw"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDU7MjAyNS0wNC0wNDsiMDk6MjQ6NDMgIjszOzIyMTQ="/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDc7MjAyNS0wNC0wNDsiMDk6MzY6NTMgIjsxOzIyMTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Boolean" array="False" size=""/>
+            <output expression="&quot;a caldeira ta ligada?&#55357;&#56483;&#55356;&#57274;&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;&#55358;&#56693;digite a temperatura atual&#55358;&#56693;: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;caldeira ativa?&#55358;&#56944; &quot; &amp; b" newline="True"/>
+            <output expression="&quot;sirene ligada (&#55357;&#57000;perigo&#55357;&#57000;)? &quot; &amp; ( a &gt; 100 || a &lt; 30 &amp;&amp; b == false)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

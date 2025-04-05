@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-04 08:09:03 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDU7MjAyNS0wNC0wNDsiMDc6NTQ6MDggIjsyMTA2"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDU7MjAyNS0wNC0wNDsiMDg6MDk6MDMgIjsxOzIyMTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="40"/>
+            <assign variable="b" expression="120"/>
+            <output expression="&quot;digite sua velocidade atual: &quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;dentro do limite de velocidade? &quot; &amp; (c &gt; a &amp;&amp; c &lt; b)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

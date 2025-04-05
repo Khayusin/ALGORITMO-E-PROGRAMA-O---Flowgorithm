@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-04 08:17:00 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDU7MjAyNS0wNC0wNDsiMDg6MDk6MDYgIjsyMTA1"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDU7MjAyNS0wNC0wNDsiMDg6MTU6MDggIjsxO0FMVU5PO0xBQkhQQzA1OzIwMjUtMDQtMDQ7IjA3OjQ0OjI0ICI7NDM3NA=="/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDU7MjAyNS0wNC0wNDsiMDg6MTc6MDAgIjsyOzIyMDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="String" array="False" size=""/>
+            <declare name="a1, a2, a3, a4, m" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite seu nome&quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="&quot;digite as notas dos 4 bimestres&quot;" newline="True"/>
+            <input variable="a1"/>
+            <input variable="a2"/>
+            <input variable="a3"/>
+            <input variable="a4"/>
+            <assign variable="m" expression="(a1+a2+a3+a4)/4"/>
+            <output expression="n" newline="True"/>
+            <output expression="&quot;media=&quot; &amp; m" newline="True"/>
+            <output expression="&quot;aprovado? &quot; &amp; ( m &gt;= 6)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
