@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-11 07:20:39 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDc6MTY6MzcgIjsyMTA3"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDc6MjA6MzkgIjsxOzIyMTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a sua m&#233;dia.&quot;" newline="True"/>
+            <input variable="media"/>
+            <if expression="media &gt;= 6">
+                <then>
+                    <output expression="&quot;&#55357;&#56846; Aprovado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#55357;&#56869; Reprovado...&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

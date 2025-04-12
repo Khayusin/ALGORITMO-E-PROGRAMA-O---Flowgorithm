@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-11 09:11:13 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDg6NTg6MDAgIjsyMTA0"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDk6MTE6MTMgIjsxOzIyMDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="saldo" type="Real" array="False" size=""/>
+            <assign variable="saldo" expression="1000"/>
+            <declare name="saque" type="Real" array="False" size=""/>
+            <declare name="saldo1" type="Real" array="False" size=""/>
+            <declare name="saldo2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor do 1&#176; saque: &quot;" newline="True"/>
+            <input variable="saque"/>
+            <output expression="&quot;Saldo dispon&#237;vel: &quot; &amp;(Saldo - Saque)" newline="True"/>
+            <assign variable="saldo1" expression="saldo - saque"/>
+            <output expression="&quot;Digite o valor do 2&#176; saque: &quot;" newline="True"/>
+            <input variable="saque"/>
+            <output expression="&quot;Saldo dispon&#237;vel: &quot; &amp;(Saldo1 - Saque)" newline="True"/>
+            <assign variable="saldo2" expression="saldo1 - saque"/>
+            <output expression="&quot;Digite o valor do 3&#176; saque: &quot;" newline="True"/>
+            <input variable="saque"/>
+            <output expression="&quot;Saldo dispon&#237;vel: &quot; &amp;(Saldo2 - Saque)" newline="True"/>
+            <if expression="saldo2 &lt; 0">
+                <then>
+                    <output expression="&quot;Saldo NEGATIVO &#55357;&#56889;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Saldo Positivo &#55357;&#56498;&#55357;&#56498;&#55357;&#56498;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

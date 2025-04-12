@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-11 08:10:31 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDc6NDU6MjMgIjsyMTA0"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDg6MTA6MzEgIjsxOzIyMDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="op" type="String" array="False" size=""/>
+            <declare name="valor1" type="Integer" array="False" size=""/>
+            <declare name="valor2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escolha a opera&#231;&#227;o:soma, subtracao, multiplicacao ou divisao:&quot;" newline="True"/>
+            <input variable="op"/>
+            <if expression="op == &quot;soma&quot;">
+                <then>
+                    <output expression="&quot;Digite o primeiro valor: &quot;" newline="True"/>
+                    <input variable="valor1"/>
+                    <output expression="&quot;Digite o segundo valor: &quot;" newline="True"/>
+                    <input variable="valor2"/>
+                    <output expression="&quot;Resultado da opera&#231;&#227;o: &quot; &amp;(valor1 + valor2)" newline="True"/>
+                </then>
+                <else>
+                    <if expression="op == &quot;subtracao&quot;">
+                        <then>
+                            <output expression="&quot;Digite o primeiro valor: &quot;" newline="True"/>
+                            <input variable="valor1"/>
+                            <output expression="&quot;Digite o segundo valor: &quot;" newline="True"/>
+                            <input variable="valor2"/>
+                            <output expression="&quot;Resultado da opera&#231;&#227;o: &quot; &amp;(valor1 - valor2)" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="op == &quot;multiplicacao&quot;">
+                                <then>
+                                    <output expression="&quot;Digite o primeiro valor: &quot;" newline="True"/>
+                                    <input variable="valor1"/>
+                                    <output expression="&quot;Digite o segundo valor: &quot;" newline="True"/>
+                                    <input variable="valor2"/>
+                                    <output expression="&quot;Resultado da opera&#231;&#227;o: &quot; &amp;(valor1 * valor2)" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="op == &quot;divisao&quot;">
+                                        <then>
+                                            <output expression="&quot;Digite o primeiro valor: &quot;" newline="True"/>
+                                            <input variable="valor1"/>
+                                            <output expression="&quot;Digite o segundo valor: &quot;" newline="True"/>
+                                            <input variable="valor2"/>
+                                            <output expression="&quot;Resultado da opera&#231;&#227;o: &quot; &amp;(valor1 / valor2)" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

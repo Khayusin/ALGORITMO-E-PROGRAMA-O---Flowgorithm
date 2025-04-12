@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-11 08:17:31 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDg6MTA6MzkgIjsyMTA0"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDg6MTc6MzEgIjsxOzIyMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cod" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o c&#243;digo do dia&quot;" newline="True"/>
+            <input variable="cod"/>
+            <if expression="cod &lt; 0 || cod &gt; 6">
+                <then>
+                    <output expression="&quot;C&#243;digo Inv&#225;lido&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="cod == 0">
+                        <then>
+                            <output expression="&quot;Domingo&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="cod = 1">
+                                <then>
+                                    <output expression="&quot;Segunda&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="cod == 2">
+                                        <then>
+                                            <output expression="&quot;Ter&#231;a&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="cod == 3">
+                                                <then>
+                                                    <output expression="&quot;Quarta&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="cod = 4">
+                                                        <then>
+                                                            <output expression="&quot;Quinta&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="cod == 5">
+                                                                <then>
+                                                                    <output expression="&quot;Sexta&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="cod == 6">
+                                                                        <then>
+                                                                            <output expression="&quot;Sab&#225;do&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else/>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

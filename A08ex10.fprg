@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-11 09:52:05 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDk6MTE6MjcgIjsyMTAz"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDk6NTI6MDUgIjsxOzIyMTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="login" type="String" array="False" size=""/>
+            <declare name="senha" type="String" array="False" size=""/>
+            <declare name="func" type="String" array="False" size=""/>
+            <declare name="prod" type="String" array="False" size=""/>
+            <declare name="quant" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite seu nome de usu&#225;rio: &quot;" newline="True"/>
+            <input variable="login"/>
+            <output expression="&quot;Digite sua senha:&quot;" newline="True"/>
+            <input variable="senha"/>
+            <if expression="login == &quot;admin&quot;">
+                <then>
+                    <if expression="senha != &quot;admin&quot;">
+                        <then>
+                            <output expression="&quot;&#10060; Acesso negado canalha &#10060;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;&#11093; Administrador: Permiss&#227;o total!! &#11093;&quot;" newline="True"/>
+                            <output expression="&quot;Digite 1 para Rel&#225;torios | 2 para cadastros | 3 para financeiro ou S para Sair&quot;" newline="True"/>
+                            <input variable="func"/>
+                            <if expression="func == &quot;1&quot;">
+                                <then>
+                                    <output expression="&quot;Camisetas: 12 unidades&quot;" newline="True"/>
+                                    <output expression="&quot;Garrafas de &#225;gua: 30 unidades&quot;" newline="True"/>
+                                    <output expression="&quot;Chocolates: 18 unidades&quot;" newline="True"/>
+                                    <output expression="&quot;Sabonetes: 25 unidades&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="func == &quot;2&quot;">
+                                        <then>
+                                            <output expression="&quot;Cadastro:&quot;" newline="True"/>
+                                            <output expression="&quot;Nome do produto&quot;" newline="True"/>
+                                            <input variable="prod"/>
+                                            <output expression="&quot;Quantidade do Produto:&quot;" newline="True"/>
+                                            <input variable="quant"/>
+                                            <output expression="&quot;Produto: &quot; &amp;prod" newline="True"/>
+                                            <output expression="&quot;Quantidade:&quot; &amp;quant" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="func == &quot;3&quot;">
+                                                <then>
+                                                    <output expression="&quot;Finan&#231;as:&quot;" newline="True"/>
+                                                    <output expression="&quot;Saldo Diario: R$24000.00&quot;" newline="True"/>
+                                                    <output expression="&quot;Valor das Vendas Diarias: R$34000.00&quot;" newline="True"/>
+                                                    <output expression="&quot;D&#233;bitos: R$10000&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="func == &quot;s&quot;">
+                                                        <then>
+                                                            <output expression="&quot;Obrigado por utilizar o sistema&quot;" newline="True"/>
+                                                        </then>
+                                                        <else/>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="login == &quot;user&quot;">
+                        <then>
+                            <if expression="senha != &quot;user&quot;">
+                                <then>
+                                    <output expression="&quot;&#10060; Acesso negado canalha &#10060;&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;&#11093; Usu&#225;rio Comum: Permiss&#227;o Rel&#225;torios e Cadastros!! &#11093;&quot;" newline="True"/>
+                                    <output expression="&quot;Digite 1 para Rel&#225;torios | 2 para cadastros | 3 para financeiro ou S para Sair&quot;" newline="True"/>
+                                    <input variable="func"/>
+                                    <if expression="func == &quot;1&quot;">
+                                        <then>
+                                            <output expression="&quot;Camisetas: 12 unidades&quot;" newline="True"/>
+                                            <output expression="&quot;Garrafas de &#225;gua: 30 unidades&quot;" newline="True"/>
+                                            <output expression="&quot;Chocolates: 18 unidades&quot;" newline="True"/>
+                                            <output expression="&quot;Sabonetes: 25 unidades&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="func == &quot;2&quot;">
+                                                <then>
+                                                    <output expression="&quot;Cadastro:&quot;" newline="True"/>
+                                                    <output expression="&quot;Nome do produto&quot;" newline="True"/>
+                                                    <input variable="prod"/>
+                                                    <output expression="&quot;Quantidade do Produto:&quot;" newline="True"/>
+                                                    <input variable="quant"/>
+                                                    <output expression="&quot;Produto: &quot; &amp;prod" newline="True"/>
+                                                    <output expression="&quot;Quantidade:&quot; &amp;quant" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="func == &quot;3&quot;">
+                                                        <then>
+                                                            <output expression="&quot;Acesso negado&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="func == &quot;s&quot;">
+                                                                <then>
+                                                                    <output expression="&quot;Obrigado por utilizar o sistema&quot;" newline="True"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="login == &quot;guest&quot;">
+                                <then>
+                                    <if expression="senha != &quot;guest&quot;">
+                                        <then>
+                                            <output expression="&quot;&#10060; Acesso negado canalha &#10060;&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;&#11093; Usu&#225;rio Comum: Permiss&#227;o Rel&#225;torios!! &#11093;&quot;" newline="True"/>
+                                            <output expression="&quot;Digite 1 para Rel&#225;torios | 2 para cadastros | 3 para financeiro ou S para Sair&quot;" newline="True"/>
+                                            <input variable="func"/>
+                                            <if expression="func == &quot;1&quot;">
+                                                <then>
+                                                    <output expression="&quot;Camisetas: 12 unidades&quot;" newline="True"/>
+                                                    <output expression="&quot;Garrafas de &#225;gua: 30 unidades&quot;" newline="True"/>
+                                                    <output expression="&quot;Chocolates: 18 unidades&quot;" newline="True"/>
+                                                    <output expression="&quot;Sabonetes: 25 unidades&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="func == &quot;2&quot;">
+                                                        <then>
+                                                            <output expression="&quot;Acesso negado&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="func == &quot;3&quot;">
+                                                                <then>
+                                                                    <output expression="&quot;Acesso negado&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="func == &quot;s&quot;">
+                                                                        <then>
+                                                                            <output expression="&quot;Obrigado por utilizar o sistema&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else/>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

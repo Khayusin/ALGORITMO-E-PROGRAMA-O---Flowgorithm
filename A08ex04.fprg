@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-11 07:44:05 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDc6MzQ6NTUgIjsyMTA3"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTc7MjAyNS0wNC0xMTsiMDc6NDQ6MDUgIjsxOzIyMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="temperatura" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a temperatura atual: &quot;" newline="True"/>
+            <input variable="temperatura"/>
+            <if expression="temperatura &gt;= 35 and temperatura &lt;= 45">
+                <then>
+                    <output expression="&quot;A temperatura est&#225; regular.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="temperatura &lt; 35">
+                        <then>
+                            <output expression="&quot;A temperatura est&#225; Baixa...&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="temperatura &gt; 45">
+                                <then>
+                                    <output expression="&quot;A temperatura est&#225; Alta!&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
